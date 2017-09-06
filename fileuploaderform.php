@@ -18,8 +18,8 @@
 1) Uses method="post"
 2) The form attribute: enctype="multipart/form-data" specifies which content-type to use when submitting the form
 3) The type="file" attribute of the <input> tag shows the input field as a file-select control, with a "browse" button next to the input control
-This form sends data to a temoprary defautl directory on the server. The files are then picked up by the
-second php page 'upload.php' and moved to their acctual descitaion /upload
+This form sends data to a temporary default directory on the server. The files are then picked up by the
+second php page 'confirmation.php' and moved to their actual destination /uploads
 -->
 <!--^^^^^^^^^^^^^^^^^^^^^^ START of the FORM  ^^^^^^^^^^^^^^^^^^^^^^  -->
 <div class="container">
@@ -34,7 +34,7 @@ see $max value in fileuploaderform.php -->
 
 <!------------------------------------------->
 <!-- section of the form for selecting the 1st file -->
-<label for="filename1"><b>Select AQA file  </b></label> <!-- 'for' attribute of the label takes the Id of the target element -->
+<label for="filename1"><b>Select AQA file</b></label> <!-- 'for' attribute of the label takes the Id of the target element -->
 <input type="file" name="filename1" id="filename1">
 <br><br>
 
