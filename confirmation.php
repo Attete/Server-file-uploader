@@ -1,6 +1,6 @@
 <?php #this php block will be executed after the form below (see the '<div class="section3">' section) has been submitted
 $max = $_POST['MAX_FILE_SIZE'];
-//$max= 150 * 1024; #size in Bytes, here max is 150 KBytes, works with hidden input field, see form below
+//$max= 200 * 1024; value given in Bytes, so 204800/1024=200KB, so max file size is 200KB , see form below
 
 //includes the external file that stores SCNUMBER strings as keys with corresponding Business ID strings as values; key=>value
 include 'list.php'; 
