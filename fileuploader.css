@@ -1,0 +1,47 @@
+body 
+{
+    background-image: url("shoe.jpg"); 
+	background-size: cover;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea 
+{
+    width: 100%; /* Full width */
+    padding: 5px; /* Some padding -edit box hight*/  
+    border: 2px solid #ccc; /* Gray border */
+    border-radius: 10px; /* Rounded borders */
+    box-sizing: box-sizing; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover 
+{
+    background-color: #626567;
+}
+
+/* Add a background color and some padding around the form */
+.container 
+{
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 60px; /* form padding */
+	max-width:500px; /* form width */
+	margin: auto; /* form location - centre */
+	
+}
+
