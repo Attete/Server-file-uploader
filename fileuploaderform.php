@@ -30,7 +30,7 @@ second php page 'upload.php' and moved to their acctual descitaion /upload
 
 <!-- hidden input filed used to restrict max size of the file to be uploaded, 
 see $max value in fileuploaderform.php -->
-<input type="hidden" name="MAX_FILE_SIZE" value="204800"> <!-- value 200 * 1024 = 204800 KB -->
+<input type="hidden" name="MAX_FILE_SIZE" value="204800"> <!-- value given in Bytes, so 204800/1024=200KB, so max file size is 200KB -->
 
 <!------------------------------------------->
 <!-- section of the form for selecting the 1st file -->
