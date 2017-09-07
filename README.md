@@ -6,6 +6,13 @@ User selects the files from her/his computer, and provides several pieces of inf
 The files are then uploaded onto directory 'uploads' (previously created inside the directory where all the files reside, see ‘INITIAL LINUX/UNIX SERVER SETUP’) and the files’ names are changed by incorporating the supplied pieces of information. The files extensions are also changed to reflect the type of file uploaded (*.FLE for AQA, and *.dat for Output).
 At the end of execution, subject the files are successfully uploaded, the confirmation.php triggers shell script (not included).
 
+Information required from the user;
+1) SCNUMBER - if left blank defaults to X12345. The SCNUMBER values have corresponding Business ID, and if found in the file.php array, correct Business Id is used. If the SCNUMBER provided by the user does not exist in the file.php array, then the Business ID defaults to 00. Note, both SCNUMBER & Business ID are incorporated into the uploaded files names.
+2) Mnemonic - this information is required and is incorporated into the uploaded files names
+3) System - this information is required and is incorporated into the uploaded files names 
+4) Line of business - this information is required and is incorporated into the uploaded files names
+5) User email address - this information is required and is incorporated into the uploaded files names
+
 INITIAL LINUX/UNIX SERVER SETUP
 -----------------------------------------
 1) Place all the file in one directory on your server
