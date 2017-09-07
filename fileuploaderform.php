@@ -68,10 +68,10 @@ see $max value in fileuploaderform.php -->
 <b>Line of business</b> (required)
 <select name="lob"> 
   <option value=""></option> 
-  <option value="CB">Consumer Banking</option> 
-  <option value="SBB">Small Business Banking</option>
-  <option value="WM">Wealth Management</option>
-  <option value="MAA">Mergers and Acquisitions</option>
+  <option value="CB">Consumer Banking(CB)</option>
+  <option value="SBB">Small Business Banking(SBB)</option>
+  <option value="WM">Wealth Management(WM)</option>
+  <option value="MAA">Mergers and Acquisitions(MAA)</option>
 </select><br><br> 
   
 <!-- user input for the user's email address   -->
