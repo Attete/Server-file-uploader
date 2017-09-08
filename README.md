@@ -7,7 +7,7 @@ The files are uploaded onto directory 'uploads' (the directory needs to be creat
 At the end of execution, subject the files are successfully uploaded, the confirmation.php triggers shell script (not included).
 
 Information required from the user;
-1) SCNUMBER - if left blank defaults to X12345. The SCNUMBER values have corresponding Business ID, and if found in the file.php array, correct Business Id is used. If the SCNUMBER provided by the user does not exist in the file.php array, then the Business ID defaults to 00. Note, both SCNUMBER & Business ID are incorporated into the uploaded files names.
+1) SCNUMBER - if left blank defaults to X12345. The SCNUMBER values have corresponding Business ID, and if found in the file.php array, correct Business ID is used. If the SCNUMBER provided by the user does not exist in the file.php array or the user leaves this section blank, then the Business ID defaults to 00. Note, both SCNUMBER & Business ID are incorporated into the uploaded files names.
 2) Mnemonic - this information is required and is incorporated into the uploaded files' names
 3) System - this information is required and is incorporated into the uploaded files' names 
 4) Line of business - this information is required and is incorporated into the uploaded files' names
