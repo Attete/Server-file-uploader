@@ -32,13 +32,13 @@ second php page 'confirmation.php' and moved to their actual destination /upload
 see $max value in fileuploaderform.php -->
 <input type="hidden" name="MAX_FILE_SIZE" value="204800"> <!-- value given in Bytes, so 204800/1024=200KB, so max file size is 200KB -->
 
-<!------------------------------------------->
+<!-- --------------------------------------- -->
 <!-- section of the form for selecting the 1st file -->
 <label for="filename1"><b>Select AQA file</b></label> <!-- 'for' attribute of the label takes the Id of the target element -->
 <input type="file" name="filename1" id="filename1">
 <br><br>
 
-<!------------------------------------------->
+<!-- --------------------------------------- -->
 
 <!-- section of the form for selecting the 2nd file-->
 <label for="filename2"><b>Select Output file </b></label> <!-- 'for' attribute of the label takes the Id of the target element -->
@@ -46,12 +46,12 @@ see $max value in fileuploaderform.php -->
 <br><br>
 <hr>
 
-<!------------------------------------------->
+<!-- --------------------------------------- -->
 
 <!--user input for the customer's SCNUMBER number -->
 <b>SCNUMBER</b> (defaults to X12345 if left empty) <input type="text" name="scnumber"><br> <br> 
 
-<!------------------------------------------->
+<!-- --------------------------------------- -->
 
 <!-- drop down list for the user to choose customer's system  -->
 <b>System</b> (required)
@@ -62,7 +62,7 @@ see $max value in fileuploaderform.php -->
   <option value="System3">System3</option>
 </select><br><br>
 
-<!------------------------------------------->
+<!-- --------------------------------------- -->
 
 <!-- drop down list for the user to choose line of business  -->
 <b>Line of business</b> (required)
